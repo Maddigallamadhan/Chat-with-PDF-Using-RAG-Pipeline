@@ -79,7 +79,6 @@ A detailed report with each of these per question is provided at: [Download base
 To reproduce the results run **baseline_rag_pipeline.py**. Make sure to put your OpanAI key.
 
 Here is the metrics segmented by dataset/question type
-![Metrics Per Dataset Type](assets/metrics_per_dataset_type.png)
 
 **Performance observations**
 1. Simple recalling question which does not require cross-reference are easy to answer based on 'qa' dataset type.
@@ -116,7 +115,6 @@ This is future work based on availability of time and openAI credits.
 
 ## ChatBot using streamlit application
 
-![Simple chatbot](assets/chatbot.png)
 
 A simple chatbot has been implemented using streamlit. The app does not support multi-dialogue  and can only answer and dispalce one pair of question, answer.
 
